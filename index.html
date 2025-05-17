@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Incremental Game Layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- News Ticker -->
+  <div id="news-ticker">
+    <span id="news-message">Welcome to the incremental game!</span>
+  </div>
+
+  <!-- Main Display Row -->
+  <div id="main-display">
+    <div id="left-textbox">
+      <span id="left-string"></span>
+    </div>
+    <div id="right-number">
+      <span id="main-number"></span>
+    </div>
+  </div>
+
+  <!-- Action Buttons Row -->
+  <div id="actions-row">
+    <button class="action-btn orange" disabled>1</button>
+    <button class="action-btn purple" disabled>2</button>
+    <button class="action-btn black" disabled>3</button>
+    <button class="action-btn green" disabled>4</button>
+    <button class="action-btn blue" disabled>5</button>
+  </div>
+
+  <!-- Main Game Area -->
+  <div id="game-area">
+    <!-- Menu Selection -->
+    <div id="menu-selection">
+      <button class="menu-btn selected">Generators</button>
+      <!-- 26 locked buttons -->
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn locked" disabled>?</button>
+      <button class="menu-btn">Statistics</button>
+      <button class="menu-btn">Options</button>
+    </div>
+    <!-- Game Menus Content -->
+    <div id="menu-content">
+      <!-- Empty for now -->
+    </div>
+  </div>
+
+  <script src="MegaNumber.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
